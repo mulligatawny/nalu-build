@@ -16,3 +16,7 @@ export yaml_install_dir=$nalu_install_dir/yaml/0.6.2
 ```
 
 beforehand.
+
+----
+
+If a new file is added to the source, run make clean, then cmake (the do-configNaluNonTracked file) and make. The file will be indexed by cmake.
