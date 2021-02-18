@@ -1,7 +1,7 @@
-As a reference, the NALU manual is located here:
-https://nalu.readthedocs.io/en/latest/source/user/build_manually.html
+The Nalu manual is located here:
+https://github.com/NaluCFD/Nalu/blob/master/docs/source/user/build_manually.rst
 
-NALU GNU project instructions below:
+Nalu GNU project instructions below:
 
 Create build and install directory
 
@@ -77,7 +77,6 @@ make install
 
 ```
 
-
 ## Boost
 
 ```
@@ -135,7 +134,7 @@ make install
 
 ```
 
-Parallel NetCDF
+## Parallel NetCDF
 ```
 cd $nalu_build_dir/packages/
 wget http://cucis.ece.northwestern.edu/projects/PnetCDF/Release/pnetcdf-1.12.1.tar.gz
@@ -147,7 +146,7 @@ make install
 
 ```
 
-NetCDF
+## NetCDF
 ```
 cd $nalu_build_dir/packages/
 curl -o netcdf-c-4.7.4.tar.gz https://codeload.github.com/Unidata/netcdf-c/tar.gz/v4.7.4
@@ -199,7 +198,7 @@ vi do-configNaluNonTracked
 nalu_install_dir=$HOME/codes/nalu/install
 trilinos_install_dir=$nalu_install_dir/Trilinos_stable_release
 yaml_install_dir=$nalu_install_dir/yaml/0.6.2
-# tioga_install_dir=$nalu_install_dir/tioga
+#tioga_install_dir=$nalu_install_dir/tioga
 
 
 Within Nalu/build, execute the following commands:
