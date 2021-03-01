@@ -25,7 +25,7 @@ cd $nalu_build_dir/packages/cmake-3.17.0
 ./configure --prefix=$nalu_install_dir/cmake/3.17.0 -- -DCMAKE_USE_OPENSSL=OFF
 make
 make install
-echo 'export PATH=$HOME/codes/nalu/install/cmake/3.12.3/bin:$PATH' >> ~/.bashrc
+echo 'export PATH=$HOME/codes/nalu/install/cmake/3.17.0/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 ```
 
