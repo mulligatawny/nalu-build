@@ -36,7 +36,7 @@ cd $nalu_build_dir/packages
 curl -o libxml2-2.9.2.tar.gz http://www.xmlsoft.org/sources/libxml2-2.9.2.tar.gz
 tar -zxvf libxml2-2.9.2.tar.gz
 cd $nalu_build_dir/packages/libxml2-2.9.2
-CC=mpicc CXX=mpicxx ./configure -without-python --prefix=$nalu_install_dir/libxml2/2.9.2
+CC=mpicc CXX=mpicxx ./configure -without-python --prefix=$nalu_install_dir/libxml2-2.9.2
 make
 make install
 ```
